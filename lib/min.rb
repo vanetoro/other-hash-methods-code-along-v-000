@@ -9,5 +9,6 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  groceries.keys
+  new_arr = groceries.keys
+  new_arr.values
 end
